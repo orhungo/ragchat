@@ -3,7 +3,7 @@ from langchain_community.retrievers import AzureCognitiveSearchRetriever
 
 def get_retriever():
     """
-    Azure Cognitive Search retriever'ı döndürür.
+    Azure AI Search retriever'ı döndürür.
     .env içindeki endpoint, api key ve index adını kullanır.
     """
 
