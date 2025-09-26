@@ -4,7 +4,6 @@ from azure_services.llm import get_llm
 from azure_services.retriever import get_retriever
 from azure_services.rag_chain import get_rag_chain
 
-# .env yükle
 load_dotenv()
 
 def main():
